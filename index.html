@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Review Satu Bulan Pemrograman Fungsional</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Pemfung</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+	  <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+	  </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/gambar_badak.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Pemrograman Fungsional</h1>
+            <span class="subheading">Review</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-preview">
+            <h2 class="post-title">
+              Review Satu Bulan Belajar Pemrograman Fungsional
+            </h2>
+            <p class="post-subtitle">
+              Halo, Selamat Siang semuanya, saya Rizkhi Pramudya Hastiputra, saat ini sedang menuntut ilmu di Fakultas Ilmu Komputer Universitas Indonesia jurusan Ilmu Komputer. Di semester ini saya mengambil mata kuliah Pemrograman Fungsional. Ada beberapa alasan mengapa saya mengambil mata kuliah ini, yang pertama karena saya ingin memperdalam kemampuan saya dalam dunia pemrograman dan meningkatkan skill saya, yang kedua karena jika saya mengambil mata kuliah ini, hari jumat saya jadi hari libur. Saya berniat menggunakan ilmu ini sebaik-baiknya agar berguna bagi banyak orang di kedepannya.
+              <br><br>
+              Di awal minggu pertemuan, saya mempelajari konsep dasar pemrograman fungsional, yaitu lambda kalkulus. Pada mata kuliah ini kami diajarkan menggunakan bahasa pemrograman Haskell. namun tidak diwajibkan untuk menggunakan Haskell, karena yang penting dari mata kuliah ini adalah paradigmanya.
+              <br><br>
+              Pertama didunia pemrograman terdapat 2 paradigma, yaitu Pemrograman Imperatif dan Pemrograman Deklaratif, dikebanyakan kuliah saya sebelumnya saya diajarkan bagaimana cara kerja Pemrograman Imperatif. Yang menjadi poin penting perbedaan Pemrograman Deklaratif dengan Imperatif adalah, jika Imperatif kita mendefinisikan step by step bagaimana cara mendapatkan suatu hasil, di Deklaratif kita mendeklarasikan atau mendefinisikan suatu hasil tersebut. Jadi kita tidak menjelaskan bagaimana step by stepnya.
+              <br><br>
+              Sebagai contoh kita ingin menghitung jumlah elemen dari list di paradigma Imperatif maka kurang lebih hasil codenya sebagai berikut:
+              <br><br>
+              array = [1,2,3,4,5,6]
+              length = 0
+              for x in array:
+                  length += 1
+              print (length)
+              <br><br>
+              dan dengan menggunakan paradigma Deklaratif hasil codenya sebagai berikut:
+              <br><br>
+              def length(xs):
+                  return 0 if xs == [] else 1 + length(xs[1:])
+              print(length([1,2,3]))
+
+              <br><br>
+              Jika dibandingkan di Imperatif kita lebih memberikan statement step by step apa yang harus dilakukan untuk menghitung jumlah elemen sedangkan di Deklaratif kita lebih memperhatikan apa itu sebenarnya jumlah elemen, lalu kita definisikan jumlah elemen itu, yang dimana definisi dari jumlah elemen itu adalah penjumlahan 1 dengan banyaknya elemen list
+              <br><br>
+              Setelah itu minggu selanjutnya, kami diajar oleh Dosen yang didatangkan dari Portugal. Tetapi selama minggu ini perhatian saya kurang fokus terhadap materi yang disampaikan. Karena menurut saya materi yang disampaikan merupakan review dari mata kuliah Teori Bahasa dan Automata. Sehingga cukup mendengarkan sekilas saya sudah dapat maksud dari yang ingin dijelaskan.
+              <br><br>
+              Di minggu selanjutnya saya mempelajari apa itu High Order Function, menurut definisi High Order Function adalah Function yang menerima suatu fungsi sebagai parameter atau suatu fungsi yang mereturn fungsi.
+              <br><br>
+              Contoh umum dari High Order Function adalah Map dan Reduce, kedua fungsi tersebut sudah saya ketahui sebelum saya mengambil mata kuliah ini. Saya mengetahui kedua fungsi tersebut dijavascript. Sekarang akan dijelaskan apa itu Map dan Reduce.
+              <br><br>
+              Map adalah fungsi yang menerima dua argumen yaitu fungsi X dan list atau sequence Y. lalu hasil return dari Map adalah sebuah array baru atau list baru yang setiap nilai dari array baru tersebut merupakan hasil petaan dari list Y terhadap fungsi X.
+              <br><br>
+              Reduce adalah fungsi yang menerima 3 argumen (argumen ketiga merupakan argumen optional), yang pertama yaitu fungsi X, kedua adalah list atau sequence Y, yang ketiga adalah nilai awal (optional). Hasil dari return Reduce adalah sebuah nilai yang merupakan hasil operasi dari fungsi X terhadap setiap elemen dari list Y.
+              <br><br>
+              Berikut akan diberikan contoh terhadap dua fungsi map dan reduce.
+              fungsi map di Pemrograman Fungsional kurang lebih bentuknya seperti ini :
+
+              def map(func, xs):
+                  return [] if xs == [] else [func(xs[0])] + map(func, xs[1:])
+
+              multiplyBy2 = lambda x : x * 2
+              print(map(multiplyBy2, [1,2,3,4,5]))
+              <br><br>
+              yang dilakukan fungsi tersebut adalah, untuk setiap elemen di xs, ambil nilai awal array, lalu kalikan dengan 2, buat array baru yang berisi 2 dan konkatenasi dengan sisanya.
+              <br><br>
+              Untuk fungsi reduce di Pemrograman Fungsional kurang lebih bentuknya adalah :
+              def fold(func, xs):
+                  return 0 if xs == [] else func(xs[0]) + fold(func, xs[1:])
+
+              multiply = lambda x,y : x*y
+              print(fold(itself, [1,2,3,4,5]))
+              <br><br>
+              yang dilakukan fungsi tersebut adalah untuk setiap elemen di xs, ambil satu nilai awal array, kemudian lakukan operasi '+' untuk setiap elemen didalam list.
+              <br><br>
+              Dalam satu bulan ini saya belajar banyak tentang Pemrograman Fungsional ini, seperti cara berpikir yang tidak biasanya saya lakukan, dll. Saya berharap untuk 3 bulan kedepannya saya dapat mengembangkan ilmu yang saya dapat dengan lebih baik.
+
+              Sekian terima kasih
+              <br><br>
+            </p>
+          <p class="post-meta">Posted by
+            <a href="https://github.com/Khiyara">Rizkhi Pramudya</a>
+            on October 3, 2019</p>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://github.com/Khiyara">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Rizkhi Pramudya 2019</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
